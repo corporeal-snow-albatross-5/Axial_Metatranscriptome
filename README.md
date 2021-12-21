@@ -3,28 +3,28 @@
 
 ### Axial RNA-SIP Sample Processing: From Raw Reads to OTU Bar Graphs
 - scripts are located in the "scripts" folder in this repo. Names of the corresponding scripts are below each overview step. 
-- 
+
 #### Overview:
-1. Quality Check the files with FastQC and MultiQC
--fastqc.sh
+1. Quality Check the files with FastQC and MultiQC  
+-fastqc.sh  
 -multiqc.sh
-2. Trim the reads with Trimmomatic
+2. Trim the reads with Trimmomatic  
 -trimmomatic.sh
-3. Combine all the forward and all the reverse read segments using cat command
+3. Combine all the forward and all the reverse read segments using cat command  
 -cat.sh
-4. Combine concatenated forward and reverse reads using Flash
+4. Combine concatenated forward and reverse reads using Flash  
 -flash.sh
-5. Run SortMeRNA to remove rRNA from the mRNA
+5. Run SortMeRNA to remove rRNA from the mRNA  
 -sortmerna.sh
-6. Use fq2fa from IDBA_UD to convert .fastq output of Mothur to .fasta
+6. Use fq2fa from IDBA_UD to convert .fastq output of Mothur to .fasta  
 -fq2fa.sh
-7. Classify taxonomy of rRNA using Mothur classify.seq
+7. Classify taxonomy of rRNA using Mothur classify.seq  
 -mothur.sh
-8. Use R to properly format Mothur output
+8. Use R to properly format Mothur output  
 -R_format.sh
-9. Use R to create a count table of taxonomic groups by desired classification (Domain, Kingdom, Phylum, Class, Order, Family, Genus, Species)
+9. Use R to create a count table of taxonomic groups by desired classification (Domain, Kingdom, Phylum, Class, Order, Family, Genus, Species)  
 -R_count_table.sh
-10. Use ggplot to create bar graphs
+10. Use ggplot to create bar graphs  
 -R_rel_abundance_plot.sh
 
 #### Documentation for each program:
