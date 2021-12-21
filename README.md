@@ -25,4 +25,6 @@
 6. fq2fa
 7. R code and directions will be included at the end of this document 
 
+*Note: all of these programs were run on WHOI’s cluster, Poseidon, so the code for that is included. Additionally, all programs were installed using Conda Environments*
+
 ### **A full overview of all of the steps is located in the document 'Axial RNA-SIP Sample Processing-From Raw Reads to OTU Bar Graphs.pdf' **
