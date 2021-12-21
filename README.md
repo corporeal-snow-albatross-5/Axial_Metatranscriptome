@@ -33,8 +33,8 @@
 3. Flash (Fast Length Adjustment of Short reads) - https://ccb.jhu.edu/software/FLASH/
 4. SortmeRNA - https://bioinfo.lifl.fr/RNA/sortmerna/code/SortMeRNA-user-manual-v2.1.pdf 
 - https://github.com/biocore/sortmerna
-5. fq2fa
-6. Mothur - classify.seq
+5. fq2fa - https://github.com/loneknightpy/idba
+6. Mothur - classify.seq - https://mothur.org/wiki/classify.seqs/
 8. R code and directions will be included at the end of the 'Axial RNA-SIP Sample Processing-From Raw Reads to OTU Bar Graphs.pdf' and in the scripts folder
 
 *Note: all of these programs were run on WHOI’s cluster, Poseidon, so the code for that is included. Additionally, all programs were installed using Conda Environments*
